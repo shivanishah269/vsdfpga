@@ -15,6 +15,6 @@ This repository explains the implementation of Mixed Signal SoC (RISCV based Cor
 
 # Steps for RTL Simulation of RVMYTH+PLL using iverilog
 
-1. `iverilog iverilog rvmyth_pll_tb.v rvmyth_pll.v clk_gate.v`
+1. `iverilog rvmyth_pll_tb.v rvmyth_pll.v clk_gate.v`
 2. `./a.out`
 3. `gtkwave rvmyth_pll.vcd`
