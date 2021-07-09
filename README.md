@@ -10,7 +10,7 @@ This repository explains the implementation of Mixed Signal SoC (RISCV based Cor
 
 1. Install Sandpiper SaaS (https://pypi.org/project/sandpiper-saas/)
 2. `git clone https://github.com/shivanishah269/RVMYTH_PLL.git`
-3. `cd verilog`
+3. `cd vsdfpga/verilog`
 4. ` sandpiper-saas -i rvmyth_updated.tlv -o rvmyth_updated.v --iArgs`
 
 # Steps for RTL Simulation of RVMYTH+PLL using iverilog
