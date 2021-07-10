@@ -1,5 +1,27 @@
-# RVMYTH_PLL
-This repository explains the implementation of Mixed Signal SoC (RISCV based Core + PLL) on FPGA.
+# vsdfpga
+This repository explains the implementation of Mixed Signal SoC (RISC-V based Core + PLL) on FPGA.
+
+__MYTH Core:__ https://github.com/shivanishah269/risc-v-core
+
+__PLL:__ https://github.com/vsdip/rvmyth_avsdpll_interface
+
+# Tools used:
+
+__Makerchip:__  
+
+[Makerchip](https://www.makerchip.com/) is a free web-based IDE as well as available as [makerchip-app](https://gitlab.com/rweda/makerchip-app), a virtual desktop application for developing high-quality integrated circuits. You can code, compile, simulate, and debug Verilog designs, all from your browser. Your code, block diagrams, and waveforms are tightly integrated.
+
+__Icarus Verilog:__
+
+[_Icarus Verilog_](http://iverilog.icarus.com/) is a Verilog simulation and synthesis tool.
+
+__GTKWave:__
+
+[GTKWave](http://gtkwave.sourceforge.net/) is a waveform viewer.
+
+__Xilinx Vivado:__
+
+[Xilixn Vivado](https://www.xilinx.com/support/university/vivado.html) provides complete SoC-strength, IP-centric and system-centric, next generation development environment. Currently, this project is done using Vivado HL Design Edition 2019.1.
 
 # Installtion and Overview of Sandpiper
 * [SandPiper](https://www.redwoodeda.com/products) is a code generator that generates readable, well-structured, Verilog or SystemVerilog code from the given TL-Verilog code.
@@ -18,3 +40,7 @@ This repository explains the implementation of Mixed Signal SoC (RISCV based Cor
 1. `iverilog rvmyth_pll_tb.v rvmyth_pll.v clk_gate.v`
 2. `./a.out`
 3. `gtkwave rvmyth_pll.vcd`
+
+# Acknowledgements
+- [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd.
+- [Steve Hoover](https://github.com/stevehoover), Founder, Redwood EDA
