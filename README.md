@@ -23,6 +23,12 @@ __Xilinx Vivado:__
 
 [Xilixn Vivado](https://www.xilinx.com/support/university/vivado.html) provides complete SoC-strength, IP-centric and system-centric, next generation development environment. Currently, this project is done using Vivado HL Design Edition 2019.1.
 
+# FPGA board used:
+Zedboard Zynq-7000 ARM/FPGA SoC Development Board ([Product Link](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/zedboard/))
+
+![image](https://user-images.githubusercontent.com/15063738/125192735-f9c65b80-e266-11eb-9130-799199fa208a.png)
+
+
 # Installtion and Overview of Sandpiper
 * [SandPiper](https://www.redwoodeda.com/products) is a code generator that generates readable, well-structured, Verilog or SystemVerilog code from the given TL-Verilog code.
 * [SandPiper SaaS Edition](https://pypi.org/project/sandpiper-saas/) runs as a microservice in the cloud to support easy open-source development. Install Sanpiper SaaS Edition for this project. 
