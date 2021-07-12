@@ -22,7 +22,10 @@ rvmyth uut2 (core_clk,core_reset,dac_out);
     
 ila_0 uut3 (
 	.clk(main_clk), // input wire clk	 
-	.probe0(dac_out) // input wire [7:0]  probe0	
+	.probe0(dac_out), // input wire [7:0]  probe0	
+	.probe1(core_reset), // input wire [0:0] probe1
+	.probe2(core_clk) // input wire [0:0] probe2
+	
 );    
     
 endmodule
