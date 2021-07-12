@@ -37,7 +37,7 @@ Zedboard Zynq-7000 ARM/FPGA SoC Development Board ([Product Link](https://www.av
 # Steps to convert TL-Verilog to Verilog or SystemVerilog
 
 1. Install Sandpiper SaaS (https://pypi.org/project/sandpiper-saas/)
-2. `git clone https://github.com/shivanishah269/RVMYTH_PLL.git`
+2. `https://github.com/shivanishah269/vsdfpga.git`
 3. `cd vsdfpga/verilog`
 4. ` sandpiper-saas -i rvmyth.tlv -o rvmyth.v --iArgs`
 
