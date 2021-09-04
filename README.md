@@ -39,11 +39,12 @@ Zedboard Zynq-7000 ARM/FPGA SoC Development Board ([Product Link](https://www.av
 1. Install Sandpiper SaaS (https://pypi.org/project/sandpiper-saas/)
 2. `git clone https://github.com/shivanishah269/vsdfpga.git`
 3. `cd vsdfpga/verilog`
-4. ` sandpiper-saas -i rvmyth.tlv -o rvmyth.v --iArgs`
+4. `sandpiper-saas -i rvmyth.tlv -o rvmyth.v --iArgs --default_includes`
+Note that `sandpiper-saas` will generate a directory called "includes", which includes the dependencies used for simulation.
 
 # Steps for RTL Simulation of RVMYTH+PLL using iverilog
 
-1. `iverilog rvmyth_pll_tb.v rvmyth_pll.v clk_gate.v`
+1. `iverilog -y . -y ./includes/proj_verilog/ -I ./includes/ -I ./includes/proj_verilog/ rvmyth_pll_tb.v`
 2. `./a.out`
 3. `gtkwave rvmyth_pll.vcd`
 
